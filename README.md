@@ -34,3 +34,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+npx prisma migrate dev --name add_gallery
+
+Vercel CLI 39.2.2
+❗️  Your Project was either deleted, transferred to a new Team, or you don’t have access to it anymore.
+? Set up and deploy “~/bun-prisma/nextjsproject”? yes
+? Which scope should contain your project? sananbsd2021's projects
+? Link to existing project? no
+? What’s your project’s name? nextjsproject
+? In which directory is your code located? ./
+Local settings detected in vercel.json:
+Auto-detected Project Settings (Next.js):
+- Build Command: next build
+- Development Command: next dev --port $PORT
+- Install Command: `yarn install`, `pnpm install`, `npm install`, or `bun install`
+- Output Directory: Next.js default
+? Want to modify these settings? no
+
